@@ -11,6 +11,8 @@ class Speaker
   property :email,           String,  required: true, unique: true
   property :password_digest, Text,    required: true
 
+  validates_format_of :email, as: :email_address
+
   def password=(password)
     self.password_digest = BCrypt::Password.create(password)
   end
