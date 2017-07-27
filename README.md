@@ -7,7 +7,7 @@ cd speakup
 
 bundle
 
-rspec
+bundle exec rspec
 
 rackup config.ru
 

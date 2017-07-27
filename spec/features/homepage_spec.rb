@@ -4,7 +4,7 @@ feature 'Viewing profiles' do
     expect(page.status_code).to eq 200
   end
 
-  scenario 'Homepage contains the test Hello World' do
+  scenario 'Homepage has the placeholder text Hello World, index' do
     visit '/'
     expect(page).to have_content('Hello World, index')
   end
