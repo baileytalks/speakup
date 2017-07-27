@@ -13,5 +13,9 @@ touch '.gitignore'
 
 # add a feature test file under 'Spec' folder
 
+# add formatting to .rspec:
+# --color --format documentation
 
+# add gem 'simplecov', gem 'simplecov-console' and gem 'rubocop' to Gemfile
+# Format simplecov in the spec_helper file
 ```
