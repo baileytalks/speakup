@@ -1,3 +1,19 @@
+
+Get started
+```
+git clone LINK
+
+cd speakup
+
+bundle
+
+rspec
+
+rackup config.ru
+
+```
+
+Development
 ```
 rspec --init
 

@@ -1,7 +1,8 @@
 require 'sinatra'
+require_relative 'models/speaker'
 
 class Speakup < Sinatra::Base
   get '/' do
-    'Hello world!'
+    erb :index
   end
 end
