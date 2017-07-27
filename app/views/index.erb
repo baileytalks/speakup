@@ -1,1 +1,7 @@
 Hello World, index
+<% unless @speakers.nil? %>
+  <% @speakers.each do |speaker| %>
+    <%= speaker.email %>
+    <%= speaker.name %>
+  <% end %>
+<% end %>

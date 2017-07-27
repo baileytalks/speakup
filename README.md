@@ -9,7 +9,7 @@ bundle
 
 bundle exec rspec
 
-rackup config.ru
+rackup
 
 ```
 

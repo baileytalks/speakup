@@ -10,6 +10,7 @@ class Speaker
   property :id,              Serial
   property :email,           String,  required: true, unique: true
   property :password_digest, Text,    required: true
+  property :name,            String
 
   validates_format_of :email, as: :email_address
 
