@@ -18,4 +18,13 @@ touch '.gitignore'
 
 # add gem 'simplecov', gem 'simplecov-console' and gem 'rubocop' to Gemfile
 # Format simplecov in the spec_helper file
+
+mkdir app
+touch 'app/app.rb'
+mkdir 'app/models'
+touch 'app/models/speaker.rb'
+
+# add gem 'sinatra' then start app.rb with require 'sinatra' and define a route
+
+# start a model in speaker.rb
 ```
