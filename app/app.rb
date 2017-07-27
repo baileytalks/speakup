@@ -14,6 +14,10 @@ class Speakup < Sinatra::Base
 
   post '/signup' do
     Speaker.create(email: params[:email], password: params[:password])
-    redirect to('/')
+    redirect to('/profile')
+  end
+
+  get '/profile' do
+    erb :profile
   end
 end
