@@ -21,10 +21,19 @@ touch '.gitignore'
 
 mkdir app
 touch 'app/app.rb'
-mkdir 'app/models'
-touch 'app/models/speaker.rb'
 
 # add gem 'sinatra' then start app.rb with require 'sinatra' and define a route
+
+touch 'config.ru'
+
+# add setup for rackup in config.ru - require the app file then specify 'run Sinatra::Application'
+
+rackup config.ru
+
+# should be able to see the app on local host
+
+mkdir 'app/models'
+touch 'app/models/speaker.rb'
 
 # start a model in speaker.rb
 ```
